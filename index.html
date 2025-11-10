@@ -35,56 +35,112 @@
 
   <main>
     <!-- Home -->
-    <section class="first" id="home">
-      <div class="leftSection">
-        Hi, my name is <span class="purple">Rishav</span> <br />
-        and I'm an aspiring <span class="purple">Web Developer</span>.
-      </div>
+     <section class="first">
+  <div class="leftSection">
+  Hi, my name is <span class="blue">Rishav</span> <br />
+  and I’m a <span class="purple" id="typing-text"></span>
+</div>
+
       <div class="rightSection">
         <img src="pg.png" alt="Profile Image" />
       </div>
     </section>
 
     <!-- About -->
-    <section class="second" id="about">
-      <div class="about">
-        <h2>About Me</h2>
-        <p>
-          I am a passionate web developer with a keen interest in creating
-          dynamic and responsive web applications. Currently, I am learning
-          various web technologies and frameworks to enhance my skills and build
-          innovative projects that solve real-world problems.
-        </p>
-        <button class="btn">Download CV</button>
-      </div>
-    </section>
+    <section class="about" id="about">
+      <div class="avout">
+  <h2>About Me</h2>
+  <p>
+    Hi, I’m <strong>Rishav</strong>, an aspiring <strong>Web Developer</strong> passionate about creating 
+    modern, responsive, and user-friendly web applications. I enjoy bringing ideas 
+    to life through clean code, creativity, and attention to detail.
+  </p>
+  <p>
+    I’m currently exploring frontend and backend development, working with technologies like 
+    <strong>HTML, CSS, JavaScript, React, and Java</strong>, while learning <strong>Node.js</strong> 
+    and databases to become a full-stack developer. Beyond coding, I love listening to music, 
+    watching movies, and exploring new tech that inspires innovation.
+  </p>
+
+  <!-- Education Section -->
+  <div class="education">
+    <h3>🎓 Education</h3>
+    <ul>
+      <li><strong>Master’s in Computer Applications (MCA)</strong> — Lovely Professional University, Punjab</li>
+      <li><strong>Bachelor’s in Computer Science</strong> — Rajeev Gandhi govt degree college Shimla</li>
+    </ul>
+  </div>
+
+
+  <!-- Certifications Section -->
+  <div class="certifications">
+    <h3>📜 Certifications</h3>
+    <ul>
+      <li>Web Development Certification — Coursera</li>
+      <li>Java Programming — HackerRank</li>
+      <li>Responsive Web Design — freeCodeCamp</li>
+      <li>Git & GitHub Essentials — Udemy</li>
+    </ul>
+  </div>
+  </div>
+</section>
+
 
     <!-- Skills -->
-    <section class="third" id="skills">
-      <h2>Skills</h2>
-      <div class="skill-grid">
-        <div class="skill">
-          <img src="html5.svg" alt="HTML5" />
-          <h3>HTML5</h3>
-        </div>
-        <div class="skill">
-          <img src="css3-logo-svgrepo-com.svg" alt="CSS3" />
-          <h3>CSS3</h3>
-        </div>
-        <div class="skill">
-          <img src="javascript-seeklogo.svg" alt="JavaScript" />
-          <h3>JavaScript</h3>
-        </div>
-        <div class="skill">
-          <img src="React_(web_framework)-Logo.wine.svg" alt="React" />
-          <h3>React</h3>
-        </div>
-        <div class="skill">
-          <img src="Java_(programming_language)-Logo.wine.svg" alt="Java" />
-          <h3>Java</h3>
-        </div>
-      </div>
-    </section>
+<section class="third" id="skills">
+  <h2>Skills</h2>
+
+  <div class="skill-grid">
+     <div class="skillname"><h3>Frontend:</h3></div>
+    <!-- Frontend Skills -->
+    <div class="skill">
+      <img src="html5.svg" alt="HTML5" />
+      <h3>HTML5</h3>
+    </div>
+    <div class="skill">
+      <img src="css3-logo-svgrepo-com.svg" alt="CSS3" />
+      <h3>CSS3</h3>
+    </div>
+    <div class="skill">
+      <img src="javascript-seeklogo.svg" alt="JavaScript" />
+      <h3>JavaScript</h3>
+    </div>
+    <div class="skill">
+      <img src="React_(web_framework)-Logo.wine.svg" alt="React" />
+      <h3>React</h3>
+    </div>
+    <div class="skill">
+      <img src="Java_(programming_language)-Logo.wine.svg" alt="Java" />
+      <h3>Java</h3>
+    </div>
+  </div>
+
+  <!-- Backend Skills -->
+  <div class="skill-grid">
+    <div class="skillname"><h3>Backend:</h3></div>
+    <div class="skill">
+      <img src="Node.js_logo.svg.png" alt="Node.js" />
+      <h3>Node.js</h3>
+    </div>
+    <div class="skill">
+      <img src="Expressjs.png" alt="Express.js" />
+      <h3>Express.js</h3>
+    </div>
+    <div class="skill">
+      <img src="pngimg.com - mysql_PNG9.png" alt="MySQL" />
+      <h3>MySQL</h3>
+    </div>
+    <div class="skill">
+      <img src="mongodb-logo-png_seeklogo-481256.png" alt="MongoDB" />
+      <h3>MongoDB</h3>
+    </div>
+    <div class="skill">
+      <img src="GitHub-Mark-ea2971cee799.png" alt="GitHub" />
+      <h3>Git & GitHub</h3>
+    </div>
+  </div>
+</section>
+
 
     <!-- Projects -->
     <section class="projects" id="projects">
@@ -96,6 +152,9 @@
             A personal portfolio to showcase my web development journey and
             skills using HTML, CSS, and JavaScript.
           </p>
+          <button onclick="window.open(https://rishav-portfolio-nine.vercel.app/)">
+  Visit project
+</button>
         </div>
         <div class="project">
           <h3>Weather App</h3>
@@ -103,6 +162,9 @@
             A weather app built using an API to show real-time weather data for
             any city with a sleek design.
           </p>
+                <button onclick="window.open()">
+  Visit project
+</button>
         </div>
         <div class="project">
           <h3>To-Do List</h3>
@@ -110,20 +172,47 @@
             A responsive task management app created using JavaScript for
             tracking daily goals.
           </p>
+                <button onclick="window.open()">
+  Visit project
+</button>
         </div>
       </div>
     </section>
 
     <!-- Contact -->
-    <section class="contact" id="contact">
-      <h2>Contact Me</h2>
-      <p>Let's connect! You can reach me via email or socials below:</p>
-      <div class="socials">
-        <a href="https://www.linkedin.com/in/rishav-rana-0a3822371/" target="_blank">LinkedIn</a>
-        <a href="https://github.com/rishav269"target="_blank">GitHub</a>
-        <a href="https://x.com/_rishavrana"target="_blank">Twitter</a>
+ <section id="contact" class="contact-section">
+  <h2>Contact Me</h2>
+  <p style="margin-top:30px">Let's connect! You can reach me via email or socials below.</p>
+
+  <div class="contact-container">
+    <div class="contact-left">
+      <p><strong>Email:</strong> ranarishav1456@gmail.com</p>
+      <p><strong>Phone:</strong> +91 62300 42678</p>
+      <p><strong>Location:</strong> Punjab, India</p>
+
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/rishav-rana-0a3822371/">LinkedIn</a>
+        <a href="https://github.com/rishav269">GitHub</a>
+        <a href="https://x.com/_rishavrana">Twitter</a>
       </div>
-   </section>
+    </div>
+
+    <!-- Right Side (Form) -->
+    <form class="contact-form">
+      <div class="form-group">
+        <input type="text" placeholder="Your Name" required>
+      </div>
+      <div class="form-group">
+        <input type="email" placeholder="Your Email" required>
+      </div>
+      <div class="form-group">
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+  </div>
+</section>
+
   </main>
 
   <footer>
