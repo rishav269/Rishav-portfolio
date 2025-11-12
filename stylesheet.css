@@ -61,7 +61,19 @@
   box-shadow: 0 0 10px #00bcd4;
   transition: all 0.3s ease;
 }
+ button {
+  background-color: #0078ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
 
+button:hover {
+  background-color: #005fcc;
+}
 
 /* Smooth hover effect */
 nav ul li a {
@@ -343,7 +355,7 @@ nav ul li a {
       font-size: 0.9rem;
       margin-bottom:10px;
     }
-.project button {
+ button {
   background: linear-gradient(90deg, #6c63ff, #00ffff);
   color: #fff;
   border: none;
@@ -355,7 +367,7 @@ nav ul li a {
   font-weight: 500;
 }
 
-.project button:hover {
+button:hover {
   transform: scale(1.05);
   box-shadow: 0 0 12px #00ffff;
 }
